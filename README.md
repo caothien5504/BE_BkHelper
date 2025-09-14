@@ -81,14 +81,14 @@ Swagger UI: http://localhost:8000/docs
 ReDoc: http://localhost:8000/redoc
 
 
-🧪 Testing (tuỳ chọn)
+## 🧪 Testing (tuỳ chọn)
 pytest
 
-📦 Docker (chưa có)
+## 📦 Docker (chưa có)
 docker build -t fastapi-backend .
 docker run -p 8000:8000 fastapi-backend
 
-🧰 Công nghệ sử dụng
+## 🧰 Công nghệ sử dụng
 
 🔹 FastAPI
 
@@ -108,10 +108,10 @@ docker run -p 8000:8000 fastapi-backend
 
 🔹 (Tuỳ chọn) Google Calendar API, Firebase Push
 
-📝 License
+## 📝 License
 
 MIT License © 2025
 
-✍️ Tác giả
+## ✍️ Tác giả
 
 github.com/caothien5504
