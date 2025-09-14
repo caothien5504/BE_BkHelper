@@ -44,7 +44,7 @@ backend/
 git clone <link-repo-cua-ban>
 cd BE_BkHelper/
 
-2. Tạo môi trường ảo
+### 2. Tạo môi trường ảo
 python -m venv venv
 
 3. Kích hoạt môi trường ảo
