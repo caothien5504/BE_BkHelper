@@ -46,23 +46,28 @@ cd BE_BkHelper/
 ```
 
 ### 2. Tạo môi trường ảo
+```bash
 python -m venv venv
-
+```
 
 ### 3. Kích hoạt môi trường ảo
 Windows (PowerShell):
+```bash
 .\venv\Scripts\Activate.ps1
-
+```
 Windows (CMD):
+```bash
 .\venv\Scripts\activate
-
+```
 macOS/Linux:
+```bash
 source venv/bin/activate
-
+```
 
 ### 4. Cài đặt các thư viện phụ thuộc
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🚀 Chạy ứng dụng FastAPI
