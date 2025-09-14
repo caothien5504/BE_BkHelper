@@ -71,8 +71,9 @@ pip install -r requirements.txt
 ---
 
 ## 🚀 Chạy ứng dụng FastAPI
+```bash
 uvicorn app.main:app --reload
-
+```
 
 Truy cập docs:
 
@@ -81,12 +82,16 @@ Swagger UI: http://localhost:8000/docs
 ReDoc: http://localhost:8000/redoc
 
 
-## 🧪 Testing (tuỳ chọn)
-pytest
+## 🧪 Testing (chưa có)
+```bash
+python run pytest
+```
 
 ## 📦 Docker (chưa có)
+```bash
 docker build -t fastapi-backend .
 docker run -p 8000:8000 fastapi-backend
+```
 
 ## 🧰 Công nghệ sử dụng
 
