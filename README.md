@@ -44,29 +44,29 @@ backend/
 git clone <link-repo-cua-ban>
 cd BE_BkHelper/
 
-### 2. Tạo môi trường ảo
+
+2. Tạo môi trường ảo
 python -m venv venv
 
 3. Kích hoạt môi trường ảo
-
 Windows (PowerShell):
-
 .\venv\Scripts\Activate.ps1
 
 ## Tui dùng cái này nè
 Windows (CMD):
-
 .\venv\Scripts\activate
 
 
 macOS/Linux:
-
 source venv/bin/activate
+
 
 4. Cài đặt các thư viện phụ thuộc
 pip install -r requirements.txt
 
-🚀 Chạy ứng dụng FastAPI
+---
+
+## 🚀 Chạy ứng dụng FastAPI
 uvicorn app.main:app --reload
 
 
