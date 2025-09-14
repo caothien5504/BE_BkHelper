@@ -14,7 +14,7 @@ Dự án backend sử dụng **FastAPI** để xây dựng hệ thống API REST
 ## 📁 Cấu trúc thư mục chính
 
 
-
+```
 backend/
 ├── app/
 │ ├── api/ # Endpoint (auth, notes, schedule, etc.)
@@ -32,7 +32,7 @@ backend/
 ├── Dockerfile # Docker config (nếu dùng)
 ├── README.md # File mô tả này
 └── start.sh # Script khởi động (nếu có)
-
+```
 
 ---
 
